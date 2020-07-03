@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial MT', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+button{
+    font-family: 'Arial MT', sans-serif;
+}
+input{
+    font-family: 'Arial MT', sans-serif;
+}
+header{
+    margin: 0;
+    width: 100%;
+    font-family: 'Arial MT', sans-serif;
+    color: #fff;
+    background: #445161;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+}
+
+header h1{
+    height: auto;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0 0 50px 0;
+}
+
+.d-flex{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.list img{
+    margin-right: 10px;
+}
+.w-block{
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+}
+
+section h1{
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+section h2{
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+.about p{
+    width: 649px;
+    color: #333333;
+    font-family: 'Arial MT';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.g-block{
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.pluses, .review{
+    background-color: #f5f5f5;
+}
+
+.pluses__div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.pluses__dec{
+    width: 50%;
+}
+.pluses__block{
+    display: flex;
+    margin-bottom: 35px;
+}
+.pluses__block img{
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    padding: 6px;
+    margin-right: 9px;
+}
+.pluses__block p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.scrin__block, .review__block{
+    display: flex;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.scrin span{
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    display: flex;
+}
+.scrin__marg{
+    margin-left: 15px;
+}
+.scrin__marg h3{
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.scrin__marg p{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    width: 359px;
+    margin: 0;
+    line-height: 24px;
+    font-family: 'Arial MT';
+}
+
+
+.review__block span{
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    display: flex;
+    border-radius: 50px;
+}
+
+.review__chat{
+    width: 483px;
+    height: 121px;
+    margin-left: 20px;
+    background: #ebebeb;
+    padding: 16px 20px 0px 27px;
+    position: relative;
+}
+.review__txt{
+    margin: 0;
+    font-family: 'Italic MT';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.review__author{
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.review__chat:after {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.review__chat:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ebebeb;
+    border-width: 10px;
+    left: -20px;
+    top: 25px;
+    transform: rotate(-90deg);
+}
+
+.buy__flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.buy__now{
+    margin-right: 44px;
+    background-color: #445161;
+    border-radius: 5px;
+}
+.buy__now:nth-last-child(1){
+    margin-right: 0;
+}
+.buy__standart{
+    width: 300px;
+    height: 306px;
+}
+.buy__prem{
+    width: 300px;
+    height: 404px;
+}
+.buy__lux{
+    width: 300px;
+    height: 499px;
+}
+.buy__now h1{
+    color: #ffffff;
+    font-family: 'Arial MT';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 0;
+}
+.buy__now p{
+    padding: 9px 0;
+    color: #445162;
+    font-family: 'Arial MT';
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px 0px;
+    background-color: white;
+    text-align: center;
+}
+.buy__now ol{
+    color: #ffffff;
+    font-family: 'Arial MT';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 19px 0;
+}
+.buy__now button{
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    color: #445161;
+    font-family: 'Bold MT';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.contact{
+    background: #445161;
+    padding-bottom: 50px;
+}
+.contact h2{
+    color: white;
+}
+.contact__flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form{
+    width: 50%;
+}
+.contact input{
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 21px;
+    color: #445162;
+    font-family: 'Arial MT';
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.contact textarea{
+    width: 500px;
+    height: 170px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 21px;
+    color: #445162;
+    font-family: 'Arial MT';
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.contact button{
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: 'Arial - Bold MT';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.contact ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+.contact a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Arial MT';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.contact img{
+    margin-right: 5px;
+}
+
+footer p{
+    text-align: center;
+}
